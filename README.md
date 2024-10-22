@@ -35,6 +35,19 @@ Our framework stands out by:
 4. **Financial Analysis**: Monitor relationships between companies, executives, and financial events to gain insights into market dynamics.
 5. **Legal Research**: Map relationships between cases, laws, and legal entities to identify precedents and connections in large volumes of legal documents.
 
+
+## Recommendation Engine Example
+
+This project includes a simple recommendation engine that demonstrates how the knowledge graph can be used for content recommendations. The `recommender_engine.py` file showcases:
+
+- Building a knowledge graph from recent news articles
+- Simulating a user's reading history
+- Generating topic recommendations based on the user's interests and the relationships in the knowledge graph
+
+To run the recommendation engine demo:
+`python recommender_engine.py`
+
+
 ## Integration with Neo4j
 
 While the current implementation uses NetworkX for graph representation, the framework is designed to be easily integrated with Neo4j for enhanced performance and scalability:
