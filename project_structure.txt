@@ -1,1 +1,10 @@
- 
+KnowledgeForgeAI/
+├── pyproject.toml
+├── setup.py
+├── README.md
+├── knowledgeforgeai/
+│   ├── __init__.py
+│   └── recommender_engine.py
+└── examples/
+    ├── usage_examples.py
+    └── sample_articles.csv 
